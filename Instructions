@@ -1,0 +1,6 @@
+1. train on everything except the fold
+2. decision scores on fold
+3. decision scores on test samples
+4. calculate rank on each fold (0 to len of fold)
+6. Sum resulting numbers over all folds + 1
+7. divide sum by size of training set + 1
